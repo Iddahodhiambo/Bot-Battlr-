@@ -1,4 +1,4 @@
- # React code challenge one
+ # React code challenge two
 
 # Description
 This is  a project  for building out a React application  customised to display bot army.
