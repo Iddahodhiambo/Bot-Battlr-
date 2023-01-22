@@ -10,8 +10,14 @@ function Botcard({botData, botarmy, setbotarmy}) {
   const {name,health,damage,armor,catchphrase,avatar_url} = botData;
 
   function handleCardClick() {
-    setbotarmy([...botarmy, botData])
-    console.log(botarmy)
+    let checker = botarmy.find(bot => {
+      return bot.id === botData.id
+    })
+    if (checker === undefined) {
+      setbotarmy([...botarmy, botData])
+    }else {
+      setbotarmy([...botarmy])
+    }
   }
 
    
