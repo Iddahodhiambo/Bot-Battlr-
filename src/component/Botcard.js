@@ -1,8 +1,7 @@
 import React from "react";
 import { BsFillSuitHeartFill} from "react-icons/bs";
 import { BsShieldShaded } from "react-icons/bs";
-import { BsLightning } from "react-icons/bs";
-// import './Botspec.css'
+import { BsLightning } from "react-icons/bs"
 
 
 function Botcard({botData, botarmy, setbotarmy}) {
