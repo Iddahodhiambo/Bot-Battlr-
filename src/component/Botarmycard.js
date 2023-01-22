@@ -15,7 +15,7 @@ export default function Botarmycard({botData, setbotarmy, botarmy, bots, setBots
     }
 
     function handledelete() {
-        fetch(`http://localhost:3000/bots/${botData.id}`, {
+        fetch(`https://api.jsonbin.io/v3/b/63cd71e4ace6f33a22c58449/${botData.id}`, {
             method: 'DELETE'
         })
         .then((res) => res.json())
