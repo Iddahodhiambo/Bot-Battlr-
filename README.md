@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+ # React code challenge one
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+This is  a project  for building out a React application  customised to display bot army.
 
-## Available Scripts
+# LIVE LINK
+ - 
 
-In the project directory, you can run:
 
-### `npm start`
+# Getting Started
+In order for you to use the content on this repo ensure you have the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A computer that runs on either of the following; 
+-(Windows 7+, Linux, Mac OS)
+- nodejs 9.0+
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use this repo on your machine requires some simple steps
 
-### `npm run build`
+### Alternative One
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        git clone https://github.com/Iddahodhiambo/Bot-Battlr-
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
 
-### `npm run eject`
+        cd Bot-Battlr
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+     
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- (Optional) Open it in ``Visual Studio Code``
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        code .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- (Alternate Option) Open it in any editor of your choice.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Alternative Two
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- On the top right corner of this page there is a button labelled ``Fork``.
+- Click on that button to fork the repo to your own account.
+- Take on the process in ``Alternative One`` above.
+- Remember to replace your username when cloning.
 
-### Code Splitting
+        git clone https://github.com/your-username-here/Bot-Battlr-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Running the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ You can use the following steps to run the app.
 
-### Making a Progressive Web App
+- Install required dependencies from npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+      npm install
+- Run the application on the browser
 
-### Advanced Configuration
+      npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# How the program works
+- The app has a  a list of bots,on clicking a bot,the bot is displayed on the green div(botarmy) at the top.
+- on clicking the bots on the botarmy,the bots disappers
+- The red x button deleted the bot completely from the database
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+# Authors
+This project was contributed to by:
+- [Awuor odhiambo](https://github.com/Iddahodhiambo/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+The project is licensed under Apache 2.0.
+
+
+
+
+
+
