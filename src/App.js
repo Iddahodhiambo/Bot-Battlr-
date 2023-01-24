@@ -9,7 +9,7 @@ function App() {
   const[bots, setBots] = useState([])
 
   useEffect(function() {
-      fetch("http://localhost:3000/bots").then((response)=>response.json()).then((data)=>{
+      fetch("https://json-server-vercel-sand.vercel.app/bots").then((response)=>response.json()).then((data)=>{
           setBots(data)
           
           

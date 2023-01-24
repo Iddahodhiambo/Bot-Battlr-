@@ -15,7 +15,7 @@ export default function Botarmycard({botData, setbotarmy, botarmy, bots, setBots
     }
 
     function handledelete() {
-        fetch(`http://localhost:3000/bots/${botData.id}`, {
+        fetch(`https://json-server-vercel-sand.vercel.app/bots${botData.id}`, {
             method: 'DELETE'
         })
         .then((res) => res.json())
